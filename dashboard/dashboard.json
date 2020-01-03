@@ -1,0 +1,897 @@
+{
+   "dashboards": [{
+      "autoswitchDelay": 300,
+      "autoswitchEnabled": false,
+      "autoswitchTabId": "null",
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1572200332653,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "b78d89d1-1ee8-4216-a5f9-f457f27ecec2",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/VMware VM Summary Dashboard v3",
+      "namePath": "Custom Dashboards",
+      "rank": 402,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "37275519-dcc9-47c7-b117-6dbbf4e623ef",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c73edece-e426-4369-99aa-abba69053d5d",
+            "widgetIdReceiver": "97bedb4e-4ce0-46fe-a03e-a3479811e373"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c73edece-e426-4369-99aa-abba69053d5d",
+            "widgetIdReceiver": "100fbc60-0579-483b-9061-2e9957e2433e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c73edece-e426-4369-99aa-abba69053d5d",
+            "widgetIdReceiver": "3f55e219-38dd-4c67-b407-1262f066329c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "c73edece-e426-4369-99aa-abba69053d5d",
+            "widgetIdReceiver": "6d75f9b2-d8c1-4402-8408-197d82675bb5"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 6,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel21751-8",
+                        "isStringMetric": false,
+                        "metricKey": "summary|drs_happy_vms",
+                        "metricName": "Summary|DRS Happy VMs",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel21751-10",
+                        "isStringMetric": false,
+                        "metricKey": "summary|drs_unhappy_vms",
+                        "metricName": "Summary|DRS Unhappy VMs",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel21751-12",
+                        "isStringMetric": false,
+                        "metricKey": "summary|number_poweredOff_vms",
+                        "metricName": "Summary|Number of Powered Off VMs",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel21751-13",
+                        "isStringMetric": false,
+                        "metricKey": "summary|number_running_vms",
+                        "metricName": "Summary|Number of Running VMs",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel21751-14",
+                        "isStringMetric": false,
+                        "metricKey": "summary|number_running_vcpus",
+                        "metricName": "Summary|Number of vCPUs on Powered On VMs",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel21751-15",
+                        "isStringMetric": false,
+                        "metricKey": "summary|total_number_vms",
+                        "metricName": "Summary|Total Number of VMs",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "VMwware VM Summary",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 1
+            },
+            "height": 153,
+            "id": "3f0bdfc0-8cc8-4c85-bd98-f3855891bafc",
+            "title": "VMwware VM Summary",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 6,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28807-1",
+                        "isStringMetric": false,
+                        "metricKey": "summary|oversized",
+                        "metricName": "Summary|Is Oversized",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28807-2",
+                        "isStringMetric": false,
+                        "metricKey": "summary|undersized",
+                        "metricName": "Summary|Is Undersized",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28807-3",
+                        "isStringMetric": false,
+                        "metricKey": "summary|idle",
+                        "metricName": "Summary|Reclaimable Idle",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28807-4",
+                        "isStringMetric": false,
+                        "metricKey": "summary|poweredOff",
+                        "metricName": "Summary|Reclaimable Powered Off",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28807-5",
+                        "isStringMetric": false,
+                        "metricKey": "summary|snapshotSpace",
+                        "metricName": "Summary|Reclaimable Snapshot Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel28807-6",
+                        "isStringMetric": false,
+                        "metricKey": "summary|running",
+                        "metricName": "Summary|Running",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "VM Oversized/Undersized (for selected VM)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 15
+            },
+            "height": 153,
+            "id": "100fbc60-0579-483b-9061-2e9957e2433e",
+            "title": "VM Oversized/Undersized (for selected VM)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel32983-1",
+                        "isStringMetric": false,
+                        "metricKey": "mem|balloonPct",
+                        "metricName": "Memory|Balloon",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel32983-2",
+                        "isStringMetric": false,
+                        "metricKey": "mem|consumedPct",
+                        "metricName": "Memory|Consumed",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel32983-3",
+                        "isStringMetric": false,
+                        "metricKey": "mem|host_contentionPct",
+                        "metricName": "Memory|Contention",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel32983-4",
+                        "isStringMetric": false,
+                        "metricKey": "mem|effective_limit",
+                        "metricName": "Memory|Effective limit",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel32983-5",
+                        "isStringMetric": false,
+                        "metricKey": "mem|usage_average",
+                        "metricName": "Memory|Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel32983-6",
+                        "isStringMetric": false,
+                        "metricKey": "mem|workload",
+                        "metricName": "Memory|Workload",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "VM Memory (for selected VM)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 18
+            },
+            "height": 324,
+            "id": "3f55e219-38dd-4c67-b407-1262f066329c",
+            "title": "VM Memory (for selected VM)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30897-1",
+                        "isStringMetric": false,
+                        "label": "CPU Co-stop",
+                        "link": "",
+                        "metricKey": "cpu|costopPct",
+                        "metricName": "CPU|Co-stop",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30897-2",
+                        "isStringMetric": false,
+                        "label": "CPU Contention",
+                        "link": "",
+                        "metricKey": "cpu|capacity_contentionPct",
+                        "metricName": "CPU|Contention",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30897-3",
+                        "isStringMetric": false,
+                        "label": "CPU Demand",
+                        "link": "",
+                        "metricKey": "cpu|demandmhz",
+                        "metricName": "CPU|Demand",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30897-5",
+                        "isStringMetric": false,
+                        "label": "CPU IO Wait",
+                        "link": "",
+                        "metricKey": "cpu|iowaitPct",
+                        "metricName": "CPU|IO Wait",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30897-6",
+                        "isStringMetric": false,
+                        "label": "vCPUs",
+                        "link": "",
+                        "metricKey": "cpu|corecount_provisioned",
+                        "metricName": "CPU|Provisioned vCPU(s)",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30897-7",
+                        "isStringMetric": false,
+                        "label": "CPU Ready",
+                        "link": "",
+                        "metricKey": "cpu|readyPct",
+                        "metricName": "CPU|Ready",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30897-8",
+                        "isStringMetric": false,
+                        "label": "CPU Swap Wait",
+                        "link": "",
+                        "metricKey": "cpu|swapwaitPct",
+                        "metricName": "CPU|Swap wait",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30897-9",
+                        "isStringMetric": false,
+                        "label": "CPU Total Capacity",
+                        "link": "",
+                        "metricKey": "cpu|vm_capacity_provisioned",
+                        "metricName": "CPU|Total Capacity",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel30897-10",
+                        "isStringMetric": false,
+                        "label": "CPU Usage",
+                        "link": "",
+                        "metricKey": "cpu|usage_average",
+                        "metricName": "CPU|Usage",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "VM CPU (for selected VM)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 1,
+               "y": 18
+            },
+            "height": 324,
+            "id": "6d75f9b2-d8c1-4402-8408-197d82675bb5",
+            "title": "VM CPU (for selected VM)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-1",
+                        "isStringMetric": false,
+                        "label": "Capacity Remaining ",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                        "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-2",
+                        "isStringMetric": false,
+                        "label": "CPU Capacity Remaining",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|cpu|capacityRemaining",
+                        "metricName": "Capacity Analytics Generated|CPU|Capacity Remaining",
+                        "metricUnitId": "mhz",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "MHz",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-3",
+                        "isStringMetric": false,
+                        "label": "CPU Recommended Size",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|cpu|recommendedSize",
+                        "metricName": "Capacity Analytics Generated|CPU|Recommended Size",
+                        "metricUnitId": "mhz",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "MHz",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-4",
+                        "isStringMetric": false,
+                        "label": "CPU Time Remaining",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|cpu|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|CPU|Time Remaining",
+                        "metricUnitId": "day",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Day(s)",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-5",
+                        "isStringMetric": false,
+                        "label": "Disk Space Remaining",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|diskspace|capacityRemaining",
+                        "metricName": "Capacity Analytics Generated|Disk Space|Capacity Remaining",
+                        "metricUnitId": "gb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "GB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-6",
+                        "isStringMetric": false,
+                        "label": "Disk Space Recommended",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|diskspace|recommendedSize",
+                        "metricName": "Capacity Analytics Generated|Disk Space|Recommended Size",
+                        "metricUnitId": "gb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "GB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-7",
+                        "isStringMetric": false,
+                        "label": "Disk Space Time Remaining",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|diskspace|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Disk Space|Time Remaining",
+                        "metricUnitId": "day",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Day(s)",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-8",
+                        "isStringMetric": false,
+                        "label": "Memory Remaining",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|mem|capacityRemaining",
+                        "metricName": "Capacity Analytics Generated|Memory|Capacity Remaining",
+                        "metricUnitId": "kb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "KB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-9",
+                        "isStringMetric": false,
+                        "label": "Memory Recommended",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|mem|recommendedSize",
+                        "metricName": "Capacity Analytics Generated|Memory|Recommended Size",
+                        "metricUnitId": "kb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "KB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26551-10",
+                        "isStringMetric": false,
+                        "label": "Memory Time Remaining",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|mem|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Memory|Time Remaining",
+                        "metricUnitId": "day",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Day(s)",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "VM Capacity Remaining (for selected VM)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 11
+            },
+            "height": 210,
+            "id": "97bedb4e-4ce0-46fe-a03e-a3479811e373",
+            "title": "VM Capacity Remaining (for selected VM)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Disk Space (GB)",
+                     "metricKey": "config|hardware|diskSpace",
+                     "metricName": "Configuration|Hardware|Disk Space (GB)",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Memory (KB)",
+                     "metricKey": "config|hardware|memoryKB",
+                     "metricName": "Configuration|Hardware|Memory (KB)",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Virtual CPUs",
+                     "metricKey": "config|hardware|numCpu",
+                     "metricName": "Configuration|Hardware|Number of virtual CPUs",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "VMDKs",
+                     "metricKey": "config|numVMDKs",
+                     "metricName": "Configuration|Number of VMDKs",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "NICs",
+                     "metricKey": "summary|config|numEthernetCards",
+                     "metricName": "Summary|Configuration|Number of NICs",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Datastores",
+                     "metricKey": "summary|datastore",
+                     "metricName": "Summary|Datastore(s)",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "OS",
+                     "metricKey": "summary|guest|fullName",
+                     "metricName": "Summary|Guest Operating System|Guest OS Full Name",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Parent ESXi Host",
+                     "metricKey": "summary|parentHost",
+                     "metricName": "Summary|Parent Host",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Parent Cluster",
+                     "metricKey": "summary|parentCluster",
+                     "metricName": "Summary|Parent Cluster",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Parent Datacenter",
+                     "metricKey": "summary|parentDatacenter",
+                     "metricName": "Summary|Parent Datacenter",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Parent vCenter",
+                     "metricKey": "summary|parentVcenter",
+                     "metricName": "Summary|Parent vCenter",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "VMs"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 12,
+               "x": 1,
+               "y": 4
+            },
+            "height": 381,
+            "id": "c73edece-e426-4369-99aa-abba69053d5d",
+            "states": [
+               {
+                  "key": "permResGrid_widget_b78d89d1-1ee8-4216-a5f9-f457f27ecec2_c73edece-e426-4369-99aa-abba69053d5d",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A321.74609375%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A154.345703125%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A164.564453125%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A298.017578125%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A132.443359375%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A148%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A138%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A104.6484375%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A77%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A212.22265625%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A285.380859375%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A140%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A147%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A127%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_config%252525257Chardware%252525257CnumCpu%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AmetricValue_%252525253A%252525253A_config%252525257Chardware%252525257CnumCpu"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b78d89d1-1ee8-4216-a5f9-f457f27ecec2_c73edece-e426-4369-99aa-abba69053d5d",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "VMs",
+            "type": "ResourceList"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "VirtualMachine"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "vSphere World"
+      }
+   ]},
+   "uuid": "db002739-f181-4df9-b560-4b1f03670665"
+}
